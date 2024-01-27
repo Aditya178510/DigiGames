@@ -61,7 +61,7 @@ font-weight: 900;
 .box{
     display: flex;
     flex-wrap: wrap;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(8px);
 }
 .game:hover{
     background-color: rgb(40, 40, 40);
