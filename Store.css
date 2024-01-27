@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+list-style: none;
+}
+
+body{
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.535);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(128, 128, 128, 0.597);
+}
+.navbar li{
+    float: left;
+}
+
+@media (max-width:470px){
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        background-color: rgba(0, 0, 0, 0.535);
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+    }
+}
+
+.hint{
+    margin-top: 10px;
+}
+
+.hint p{
+    margin-left: 10px;
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.701);
+color: rgb(0, 0, 0);
+font-weight: 900;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    backdrop-filter: blur(40px);
+}
+.game:hover{
+    background-color: rgb(40, 40, 40);
+}
+.game{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.311);
+    height: 380px;
+    width: 300px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+.game p{
+    padding-top: 50px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+}
+.game a{
+    text-decoration: underline rgba(255, 0, 0, 0.529) 4px;
+    color: white;
+    transition: all 0.5s ease;
+}
+.game a:hover{
+   color: red;
+   text-decoration: underline rgba(255, 255, 255, 0.576) 4px;
+}
+.game img{
+    height:250px ;
+    width: 250px;
+    background-size: cover;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 4px black solid;
+}
+
+.foot{
+    margin-top: 0px;
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.716);
+    height: 150px;
+    width: 100%;
+}
+
+.foot p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}
