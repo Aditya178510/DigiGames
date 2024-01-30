@@ -48,7 +48,6 @@ window.addEventListener('load', function() {
                 trigger:".game",
                 scroller:"body",
                 start:"top 10%",
-                markers:true,
                 end:"bottom bottom"
             }
         
@@ -65,7 +64,6 @@ window.addEventListener('load', function() {
                 trigger:".game",
                 scroller:"body",
                 start:"top 10%",
-                markers:true,
                 end:"bottom bottom"
             }
         
